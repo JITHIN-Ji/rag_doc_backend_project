@@ -1,0 +1,37 @@
+[
+  {
+    "doc_id": "Hey Pebble PRD (2).pdf",
+    "chunk_text": " \nProduct Requirements Document (PRD) \nHey Pebble AI Concierge (MVP) \nVersion: 1.0 Date: July 15, 2025 Author: Patrick \n1. Introduction & Purpose \nThis document outlines the requirements for the Minimum Viable Product (MVP) of the \"Hey \nPebble AI Concierge,\" an AI-powered assistant designed to enhance the event experience on \nthe Pebble platform. The primary goal of the MVP is to validate the core value proposition: \nautomating attendee support to reduce the load on human staff and improve attendee \nsatisfaction. \n2. Problem Statement \nEvent organizers and their volunteer staff are often overwhelmed by a high volume of repetitive \nquestions from attendees regarding schedules, locations, and policies. This leads to long wait \ntimes at info booths, staff burnout, and a diminished attendee experience. Attendees struggle to \nget quick, consistent answers to their questions, causing frustration and wasted time. \n3. User Personas & Stories \n\u25cf\u200b As an Attendee, I want to... \n\u25cb\u200b ...ask a questi",
+    "chunk_index": 0,
+    "page": 1,
+    "label": "Hey Pebble PRD (2).pdf"
+  },
+  {
+    "doc_id": "Hey Pebble PRD (2).pdf",
+    "chunk_text": "on and wasted time. \n3. User Personas & Stories \n\u25cf\u200b As an Attendee, I want to... \n\u25cb\u200b ...ask a question in plain language (text or voice) and get an instant answer. \n\u25cb\u200b ...find out when and where a specific artist is playing. \n\u25cb\u200b ...find vendors that sell a specific item (e.g., \"coffee\") or meet a dietary need \n(e.g., \"vegan\"). \n\u25cb\u200b ...get clarity on event policies (e.g., \"Can I bring a water bottle?\"). \n\u25cb\u200b ...be directed to human help if my question is complex or an emergency. \n\u25cf\u200b As an Event Organizer, I want to... \n\u25cb\u200b ...provide a self-service tool to answer the top 80% of attendee questions \nautomatically. \n\u25cb\u200b ...ensure urgent issues are flagged and escalated to my on-site staff immediately. \n\u25cb\u200b ...view analytics on what questions are being asked most frequently to improve \nfuture event planning. \n4. MVP Features & Scope \nIn-Scope for MVP: \n",
+    "chunk_index": 1,
+    "page": 1,
+    "label": "Hey Pebble PRD (2).pdf"
+  },
+  {
+    "doc_id": "Hey Pebble PRD (2).pdf",
+    "chunk_text": " \n\u25cf\u200b Conversational Interface: A web-based chat widget that can be embedded on an \nevent's mobile website or accessed via a QR code. \n\u25cf\u200b Intent Handling: The assistant must reliably handle the following intents: \n1.\u200b Schedule Lookups: Retrieve artist/session times and locations. \n2.\u200b Vendor Lookups: Retrieve vendor locations and primary offerings. \n3.\u200b FAQ Retrieval: Answer questions from a pre-loaded knowledge base. \n4.\u200b Emergency Escalation: Detect urgent keywords and direct users to on-site staff. \n\u25cf\u200b Data Backend: Integration with a Supabase or Airtable database for storing FAQs, \nvendor lists, and schedules. \n\u25cf\u200b Basic Answer Cards: Responses will be primarily text-based. For location-based \nanswers, the text will describe the location (e.g., \"Booth B12, near the East Entrance\"). \n\u25cf\u200b Basic Analytics: The system will log every query and its classified intent. An admin \ndashboard will show a simple table of the most frequent queries. \n\u25cf\u200b Multilingual Support (2 Languages): The assist",
+    "chunk_index": 2,
+    "page": 2,
+    "label": "Hey Pebble PRD (2).pdf"
+  },
+  {
+    "doc_id": "Hey Pebble PRD (2).pdf",
+    "chunk_text": "show a simple table of the most frequent queries. \n\u25cf\u200b Multilingual Support (2 Languages): The assistant will support English and Spanish. \nOut-of-Scope for MVP: \n\u25cf\u200b Interactive, clickable maps. \n\u25cf\u200b Voice-out (Text-to-Speech) responses. \n\u25cf\u200b Self-service admin panel for organizers to update data. \n\u25cf\u200b Proactive notifications or suggestions. \n\u25cf\u200b Integration with ticketing or payment systems. \n5. Technical Requirements \n\u25cf\u200b Frontend: A responsive chat widget built in React (or using Voiceflow for rapid \nprototyping). \n\u25cf\u200b Backend: A Node.js server (or serverless functions) to handle API requests. \n\u25cf\u200b LLM Provider: OpenAI (GPT-4) for intent classification and natural language \nunderstanding. \n\u25cf\u200b Database: Supabase or Airtable. \n\u25cf\u200b Hosting: Vercel, Render, or Supabase Edge Functions. \n6. Success Metrics \nThe success of the MVP will be measured against the following targets at a pilot event: \n\u25cf\u200b Support Deflection Rate: Achieve a >60% reduction in questions asked at the main \ninformation booth c",
+    "chunk_index": 3,
+    "page": 2,
+    "label": "Hey Pebble PRD (2).pdf"
+  },
+  {
+    "doc_id": "Hey Pebble PRD (2).pdf",
+    "chunk_text": "upport Deflection Rate: Achieve a >60% reduction in questions asked at the main \ninformation booth compared to a similar past event. \n\u25cf\u200b Median Time-to-Answer: The AI's median response time must be under 3 seconds. \n\u25cf\u200b User Helpfulness Rating: A simple post-interaction \"Was this helpful? (\ud83d\udc4d/\ud83d\udc4e)\" survey \nshould achieve a >90% positive rating. \n\u25cf\u200b FAQ Coverage: The AI should successfully answer >80% of incoming queries without \nneeding to escalate (excluding emergencies). \n",
+    "chunk_index": 4,
+    "page": 2,
+    "label": "Hey Pebble PRD (2).pdf"
+  }
+]
