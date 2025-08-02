@@ -26,4 +26,5 @@ passlib[bcrypt]
 openai
 deep-translator
 python-multipart
-pydantic-settings==X.X.X
+pydantic-settings==2.2.1
+
